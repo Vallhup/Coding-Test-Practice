@@ -26,6 +26,7 @@ int main()
 	춤추는사람들.reserve(N);
 	춤추는사람들.insert("ChongChong");
 
+	// 마음에 안들긴 하는데 어짜피 코테 돌아가면 알빠노?
 	for (const 기록& in : input)
 	{
 		auto aIt = std::find(춤추는사람들.begin(), 춤추는사람들.end(), in.a);
